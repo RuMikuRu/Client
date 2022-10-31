@@ -68,10 +68,8 @@ public class Client {
             System.out.println("Closing connections & channels on clentSide - DONE.");
 
         } catch (UnknownHostException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         } catch (IOException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
     }
